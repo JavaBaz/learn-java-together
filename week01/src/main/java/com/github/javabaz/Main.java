@@ -9,7 +9,8 @@ public class Main {
 
         Calculator32 calc=new Calculator32();
 
-        System.out.println(calc.divide(10,0));
+        System.out.println(calc.divide(10,2));
+        System.out.println(calc.multiply(5,3));
 
     }
 }
