@@ -23,5 +23,17 @@ public class Calculator32 {
         }
 
     }
+
+    public double power(int a , int b){
+        return Math.pow(a,b);
+    }
+
+    public double mod (int a , int b){
+        return a%b;
+    }
+
+    public double sqrt (int a){
+        return Math.sqrt(a);
+    }
 }
 

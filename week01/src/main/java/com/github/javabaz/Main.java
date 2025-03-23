@@ -12,5 +12,8 @@ public class Main {
         System.out.println(calc.divide(10,2));
         System.out.println(calc.multiply(5,3));
 
+        System.out.println(calc.sqrt(20));
+
+
     }
 }
