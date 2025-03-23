@@ -6,5 +6,14 @@ public class Main {
                            Hello, world!
                            Welcome to week 1 :D
                            """);
+
+        Calculator32 calc=new Calculator32();
+
+        System.out.println(calc.divide(10,2));
+        System.out.println(calc.multiply(5,3));
+
+        System.out.println(calc.sqrt(20));
+
+
     }
 }
