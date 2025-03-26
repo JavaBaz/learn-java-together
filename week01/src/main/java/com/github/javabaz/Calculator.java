@@ -6,20 +6,20 @@ public class Calculator {
     // copy past this file and rename new file with your own code!
 
 
-//    public int add(int a, int b) {
-//        // todo
-//    }
-//
-//    public int subtract(int a, int b) {
-//        // todo
-//    }
-//
-//    public int multiply(int a, int b) {
-//        // todo
-//    }
-//
-//    public int divide(int a, int b) {
-//        // todo
-//    }
+    public int add(int a, int b) {
+        return 0;
+    }
+
+    public int subtract(int a, int b) {
+        return 0;
+    }
+
+    public int multiply(int a, int b) {
+        return 0;
+    }
+
+    public int divide(int a, int b) {
+        return 0;
+    }
 }
 
