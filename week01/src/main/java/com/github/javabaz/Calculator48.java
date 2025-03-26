@@ -1,4 +1,4 @@
-package com.github.javabaz.person48;
+package com.github.javabaz;
 
 public class Calculator48 {
 

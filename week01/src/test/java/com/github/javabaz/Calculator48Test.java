@@ -1,6 +1,5 @@
 package com.github.javabaz;
 
-import com.github.javabaz.person48.Calculator48;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
