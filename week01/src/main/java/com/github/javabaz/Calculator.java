@@ -7,19 +7,19 @@ public class Calculator {
 
 
     public int add(int a, int b) {
-        return 0;
+        // todo
     }
 
     public int subtract(int a, int b) {
-        return 0;
+        // todo
     }
 
     public int multiply(int a, int b) {
-        return 0;
+        // todo
     }
 
     public int divide(int a, int b) {
-        return 0;
+        // todo
     }
 }
 
