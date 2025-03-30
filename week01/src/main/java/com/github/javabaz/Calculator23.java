@@ -30,7 +30,6 @@ public class Calculator23 {
     public int mod(int firstInput, int secondInput) {
         return firstInput % secondInput;
     }
-
     public double sqrt(int number) {
         double result;
         if (number < 0) {
