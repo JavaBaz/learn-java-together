@@ -1,74 +1,49 @@
 package com.github.javabaz;
 
-import java.util.Scanner;
-
+/**
+ * This class provides basic arithmetic operations such as addition, subtraction, multiplication, etc.
+ * Each method takes two numbers as input and returns the result of the operation.
+ */
 public class Calculator48 {
 
-    public int printSum(int a, int b) {
-        int sum = a + b;
-        return sum;
+    //Calculates and returns the sum of two numbers.
+    public int sum(int a, int b) {
+        return a + b;
     }
 
-    public int printSubtract(int a, int b) {
-        int subtract = a - b;
-        return subtract;
+    //Calculates and returns to subtract of two numbers.
+    public int subtract(int a, int b) {
+        return a - b;
     }
 
-    public int printMultiply(int a, int b) {
-        int multiply = a * b;
-        return multiply;
+    // Calculates and returns the multiply of two numbers.
+    public int multiply(int a, int b) {
+        return a * b;
     }
 
-    public float printDivide(float a, float b) {
+    //  Calculates and returns the Divide of two numbers.
+    // Throws ArithmeticException if attempting to divide by zero.
+    public double divide(double a, double b) {
         if (b == 0f) {
-            return Float.NaN; //division by zero
-            // throw new ArithmeticException("Divide by zero");
+            //    return Float.NaN; // Division by zero
+            throw new ArithmeticException("Divide by zero");
         }
-        float divide = a / b;
-        return divide;
+        return a / b;
     }
 
-    public int printModulus(int a, int b) {
+    // Calculates and returns the remainder of modulus between two numbers.
+    public int modulus(int a, int b) {
         return a % b;
     }
 
-    // Calculates the average of two numbers
-    public double printAverage(double a, double b) {
-        double average = a + b;
-        return average / 2;
+    // Calculates and returns the average of two numbers.
+    public double average(double a, double b) {
+        return (a + b) / 2; // Optimized formula
     }
 
-    public double printPower(int a, int b) {
-        double power = Math.pow(a, b);
-        return power;
+    //Calculates and returns the result of a raised to the power of b.
+    public double power(int a, int b) {
+        return Math.pow(a, b);
     }
-
-    //check if a number is prime
-    public boolean printIsPrime(int number) {
-        if (number < 2) {
-            return false;
-        }
-        for (int i = 2; i < Math.sqrt(number); i++) {
-            if (number % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Calculator48 calculator48 = new Calculator48();
-        System.out.println("Enter an integer: ");
-        int number = scanner.nextInt();
-        for (int i = 2; i <= number; i++) {
-            if (calculator48.printIsPrime(i)) {
-                System.out.print(i + " ");
-            }
-        }
-        System.out.println(calculator48.printDivide(18f, 3f));
-
-    }
-
 
 }
